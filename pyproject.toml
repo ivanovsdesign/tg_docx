@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tg-doc-generator"
+version = "0.1.0"
+description = "A Telegram bot which generates .docx files based on user's prompt"
+authors = ["ivanovsdesign <78684921+ivanovsdesign@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.8.0"
+openai = "^1.35.7"
+python-docx = "^1.1.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
