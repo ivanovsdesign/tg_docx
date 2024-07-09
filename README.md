@@ -5,7 +5,7 @@ Welcome to the CV Generator Bot! This Telegram bot generates a CV in a `.docx` f
 ## ✨ Features
 
 - 📝 Generates a CV in `.docx` format.
-- 🔍 Uses OpenAI's GPT-4 to create structured CV data.
+- 🔍 Allows to choose OpenAI's GPT model to create structured CV data.
 - 💬 Easy to use with Telegram.
 
 ## 🚀 Installation
