@@ -5,19 +5,19 @@ start_keyboard = InlineKeyboardMarkup(inline_keyboard = [[
     ]])
 
 menu_keyboard = InlineKeyboardMarkup(inline_keyboard = [[
-        InlineKeyboardButton(text = "👥 Авторы         ", callback_data="change_authors")
+        InlineKeyboardButton(text = "👥  Job Title         ", callback_data="change_job")
     ],
     [
-        InlineKeyboardButton(text = "🔏 Правообладатель", callback_data="change_credits")
+        InlineKeyboardButton(text = "🔏 Experience", callback_data="change_experience")
     ],
     [
-        InlineKeyboardButton(text = "🐍 Язык           ", callback_data="change_language")
+        InlineKeyboardButton(text = "🐍 Skills           ", callback_data="change_skills")
     ],
     [
-        InlineKeyboardButton(text = "🤖 Выбор модели      ", callback_data="change_model")
+        InlineKeyboardButton(text = "🤖 Choose model      ", callback_data="change_model")
     ],
     [
-        InlineKeyboardButton(text = "💾 Начать генерацию      ", callback_data="change_generate")
+        InlineKeyboardButton(text = "💾 Start generating     ", callback_data="change_generate")
     ]
     ])
 
