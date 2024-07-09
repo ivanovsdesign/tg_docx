@@ -37,7 +37,7 @@ config = dotenv_values(".env")
 logging.basicConfig(level=logging.INFO)
 
 # Initialize bot and dispatcher
-API_TOKEN = config['API_TOKEN']
+API_TOKEN = config['TELEGRAM_API_TOKEN']
 OPEANAI_API_TOKEN = config['OPENAI_API_TOKEN']
 dp = Dispatcher()
 router = Router()
