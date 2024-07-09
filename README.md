@@ -12,7 +12,7 @@ Welcome to the CV Generator Bot! This Telegram bot generates a CV in a `.docx` f
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.11 or higher
 - [Poetry](https://python-poetry.org/) for dependency management
 
 ### Step 1: Clone the Repository
