@@ -31,5 +31,5 @@ model_keyboard = InlineKeyboardMarkup(inline_keyboard = [[
         InlineKeyboardButton(text = "GPT 4o", callback_data="model_gpt4o")
     ],
     [
-        InlineKeyboardButton(text = "Назад", callback_data="change_menu")
+        InlineKeyboardButton(text = "Back", callback_data="change_menu")
     ]])

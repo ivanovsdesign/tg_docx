@@ -33,10 +33,8 @@ import json
 
 config = dotenv_values(".env")
 
-# Set up logging
 logging.basicConfig(level=logging.INFO)
 
-# Initialize bot and dispatcher
 API_TOKEN = config['TELEGRAM_API_TOKEN']
 OPEANAI_API_TOKEN = config['OPENAI_API_TOKEN']
 dp = Dispatcher()
@@ -45,7 +43,6 @@ router = Router()
 bot = Bot(token=API_TOKEN)
 
 client = OpenAI(
-    # This is the default and can be omitted
     api_key=OPEANAI_API_TOKEN,
     base_url="https://api.proxyapi.ru/openai/v1" # For usage from Russian Federation
 )
